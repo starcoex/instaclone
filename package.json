@@ -4,13 +4,16 @@
     "graphql": "^15.8.0"
   },
   "scripts": {
-    "dev": "nodemon --exec node server.js"
+    "dev": "nodemon --exec babel-node server.js"
   },
   "name": "instaclone",
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
     "nodemon": "^2.0.20"
   },
   "repository": {
