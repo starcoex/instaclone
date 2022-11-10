@@ -4,7 +4,8 @@
     "@graphql-tools/merge": "^8.3.11",
     "@graphql-tools/schema": "^9.0.9",
     "@prisma/client": "^4.6.0",
-    "apollo-server": "^2.25.2"
+    "apollo-server": "^2.25.2",
+    "dotenv": "^16.0.3"
   },
   "scripts": {
     "dev": "nodemon --exec babel-node server.js",
